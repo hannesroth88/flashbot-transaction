@@ -1,0 +1,23 @@
+{
+  "name": "flashbot-transaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx prettier --write ./src/index.ts && ts-node ./src/index.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "prettier": "2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^0.4.3",
+    "dotenv": "^11.0.0",
+    "ethers": "^5.5.3"
+  }
+}

@@ -1,0 +1,1 @@
+inspired by https://github.com/flashbots/searcher-minter/blob/main/src/index.ts
